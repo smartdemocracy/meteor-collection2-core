@@ -1,15 +1,15 @@
 /* global Package */
 
 Package.describe({
-  name: "smartdemocracy:collection2-core",
+  name: "antoniopresto:collection2-core",
   summary: "Core package for aldeed:collection2",
   version: "1.2.0",
-  git: "https://github.com/aldeed/meteor-collection2-core.git"
+  git: "https://github.com/smartdemocracy/meteor-collection2-core.git"
 });
 
 Package.onUse(function(api) {
-  api.use('smartdemocracy:simple-schema');
-  api.imply('smartdemocracy:simple-schema');
+  api.use('antoniopresto:simple-schema');
+  api.imply('antoniopresto:simple-schema');
 
   api.use('underscore@1.0.0');
   api.use('check@1.0.0');
