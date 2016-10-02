@@ -8,7 +8,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('antoniopresto:simple-schema');
+  api.use('antoniopresto:simple-schema@2.0.0-rc.1 || 2.0.0');
   api.imply('antoniopresto:simple-schema');
 
   api.use('underscore@1.0.0');
